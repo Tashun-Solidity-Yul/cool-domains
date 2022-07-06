@@ -16,6 +16,7 @@ const main = async () => {
     // Trying to set a record that doesn't belong to me!
     // txn = await domainContract.connect(randomPerson).setRecord("doom", "Haha my domain now!");
     txn = await domainContract.setRecord("doom", "Haha my domain now!");
+    txn = await domainContract.connect(randomPerson).setRecord("doom", "Haha my domain now!");
     await txn.wait();
 }
 
