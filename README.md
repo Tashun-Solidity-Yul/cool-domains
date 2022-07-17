@@ -12,4 +12,6 @@ npx hardhat test
 npx hardhat node
 node scripts/run.js
 npx hardhat help
+
+npx hardhat run scripts/deploy.js --network mumbai
 ```
