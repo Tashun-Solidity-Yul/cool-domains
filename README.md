@@ -1,17 +1,10 @@
-# Basic Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# Domain Service
 
-Try running some of the following tasks:
+- This Project includes a Domain service where anyone can register their own unique domains. 
+- using `register` function a new domain can be registered
+- using `setRecord` in an already owned Domain, new records can be added
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/run.js
-npx hardhat help
+Note: these domains are not resolved by DNS providers 
 
-npx hardhat run scripts/deploy.js --network mumbai
-```
+
